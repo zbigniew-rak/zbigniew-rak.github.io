@@ -228,15 +228,17 @@ label {
   text-align: center;
   position: relative;
   padding-bottom: 10px; }
-  .center-title:after {
+  
+    .center-title:after {
     content: "";
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 100px;
-    height: 2px;
-    margin-left: -50px;
-    background: #4aa3de; }
+    width: 150px;
+    height: 1px;
+    margin-left: -75px;
+    background: #4aa3df; }
+
   .center-title h2 {
     letter-spacing: -1px;
     font-weight: 300; }
@@ -288,11 +290,11 @@ label {
 
 #preloader-inner {
   position: absolute;
-  left: 47%;
-  top: 40%;
+  left: 50%;
+  top: 50%;
   font-size: 5px;
-  width: 10em;
-  height: 10em;
+  width: 5em;
+  height:5em;
   margin: -25px 0 0 -25px;
   text-indent: -9999em;
   border-top: 0.5em solid #109cdd;
@@ -308,8 +310,8 @@ label {
 #preloader-inner,
 #preloader-inner:after {
   border-radius: 50%;
-  width: 30em;
-  height: 30em; }
+  width: 10em;
+  height: 10em; }
 
 @-webkit-keyframes load8 {
   0% {
@@ -1205,15 +1207,15 @@ Features tabs style
 /***responsive style**/
 @media (max-width: 991px) {
   .hero-parallax .hero-inner .hero-content h1 {
-    font-size: 27px;
-    line-height: 37px; }
+    font-size: 24px;
+    line-height: 27px; }
   .hero-static-image {
     text-align: center;
     padding-bottom: 0px;
     padding-top: 100px; }
     .hero-static-image h1 {
-      font-size: 27px;
-      line-height: 40px; }
+      font-size: 24px;
+      line-height: 27px; }
     .buttons, .hero-static-image .buttons {
       margin-bottom: 30px; }
   .navbar-toggleable-md > .container {
@@ -1467,8 +1469,8 @@ input:focus ~ .highlight {
   display: inline-block;
   position: relative;
   float: right;
-  width: 18px;
-  height: 18px; }
+  width: 16px;
+  height: 16px; }
 
 .login-remove {
   top: -30px;
