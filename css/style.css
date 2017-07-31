@@ -1293,7 +1293,7 @@ Features tabs style
 .login {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../imgages/backg1.jpg");
+  background-image: url("../images/backg1.jpg");
   background-size: cover;
   padding: 90px 0 60px 0;
   display: flex;
