@@ -23,7 +23,7 @@ body {
   background: #fff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 24px;
   letter-spacing: 0.5px;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -988,7 +988,7 @@ Features and service icon boxes
   padding-bottom: 60px; }
 
 .feature-box-center i {
-  font-size: 50px;
+  font-size: 75px;
   margin-bottom: 15px;
   color: #4aa3de;
   display: block; }
@@ -1012,7 +1012,7 @@ Features and service icon boxes
     color: #fff;
     width: 60px;
     text-align: center;
-    font-size: 50px; }
+    font-size: 75px; }
   .feature-icon-left .content {
     overflow: hidden; }
     .feature-icon-left .content h4, .feature-icon-left .content p {
@@ -1380,13 +1380,13 @@ opacity: 0.7; }
 .group {
   position: relative;
   top: -45px;
-  margin-bottom: -35px; }
+  margin-bottom: -22px; }
   .group input {
     font-size: 15px;
     padding: 10px 10px 0px 50px;
     display: block;
     width: 100%;
-    height: 50px;
+    height: 57px;
     border: none;
     border-bottom: 1px solid white;
     background: transparent;
@@ -1498,7 +1498,7 @@ input:focus ~ .highlight {
   display: inline-block;
   position: relative;
   left: 42px;
-  top: -36px;
+  top: -19px;
   width: 120px; }
 .checkbox-label {
   height: 30px !important;
