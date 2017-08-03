@@ -552,7 +552,7 @@ Buttons
   font-family: "Roboto Condensed", sans-serif; }
   .navbar-nav > li > a.btn-primary {
     padding: 5px 5px;
-    margin-top: 9px; }
+    margin-top: 5px; }
 
 .navbar-light.navbar-transparent .navbar-nav .nav-link:focus, .navbar-light.navbar-transparent .navbar-nav .nav-link:hover {
   color: white; }
@@ -1498,7 +1498,7 @@ input:focus ~ .highlight {
   display: inline-block;
   position: relative;
   left: 42px;
-  top: -19px;
+  top: -21px;
   width: 120px; }
 .checkbox-label {
   height: 30px !important;
