@@ -861,8 +861,8 @@ Pricing tables
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.05); }
   .price-box .price-header {
-    background: #000;
-    color: #fff;
+    background: #727272;
+/color: #fff;
     padding: 30px 15px; }
     .price-box .price-header h1, .price-box .price-header h4 {
       color: #fff; }
@@ -877,6 +877,12 @@ Pricing tables
       margin: 0px; }
   .price-box.best-plan .price-header, .price-box.best-plan .price-footer {
     background: #4aa3de; }
+	
+  .price-box.pro-plan .price-header, .price-box.pro-plan .price-footer {
+    background: #1c4d6e; }
+	
+/*   .price-header.pro-plan{
+    background: #1c4d6e; } */
 
 .price-features {
   margin: 0;
@@ -889,7 +895,7 @@ Pricing tables
       border-bottom: 0px; }
 
 .price-footer {
-  background: #f5f5f5;
+  background: #727272;
   padding: 25px 15px; }
 
 /*
@@ -978,7 +984,7 @@ Work process
     left: 0;
     bottom: 0;
     font-size: 90px;
-    opacity: 0.05; }
+    opacity: 0.1; }
 
 /*
 Features and service icon boxes
@@ -1019,7 +1025,7 @@ Features and service icon boxes
       color: #fff; }
     .feature-icon-left .content h4 {
       font-weight: 400;
-      text-transform: capitalize; }
+ /*      text-transform: capitalize;  */}
     .feature-icon-left .content p {
       opacity: 0.9; }
 
